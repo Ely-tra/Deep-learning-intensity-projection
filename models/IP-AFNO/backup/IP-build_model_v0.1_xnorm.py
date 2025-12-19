@@ -1,8 +1,14 @@
+import numpy as np
 import argparse
 import pathlib
+import sys
 
 import torch
 import torch.nn as nn
+
+MODULE_ROOT = pathlib.Path(__file__).resolve().parents[1]
+if str(MODULE_ROOT) not in sys.path:
+    sys.path.insert(0, str(MODULE_ROOT))
 
 from module.data import create_tc_loaders
 from module.masks import extract_bc_rim_from_y, make_rim_mask_like, make_smooth_phi
@@ -43,7 +49,7 @@ def parse_args():
     parser.add_argument("--num_epochs", type=int, default=300)
     parser.add_argument("--film_zdim", type=int, default=64, help="FiLM conditioning embedding dim.")
     parser.add_argument("--checkpoint_dir", default="/N/slate/kmluong/PROJECT2/checkpoints")
-    parser.add_argument("--checkpoint_name", default="best_model_v1.pt")
+    parser.add_argument("--checkpoint_name", default="best_model.pt")
 
     return parser.parse_args()
 

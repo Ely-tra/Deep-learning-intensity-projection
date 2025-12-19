@@ -1,0 +1,388 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"python/3.10.10"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "python/3.10.10"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
++ python IP-build_model.py
+Using device: cuda
+Epoch 1/300 train_loss=4406869.043750 val_loss=737519.519231
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=737519.519231)
+Epoch 2/300 train_loss=457452.188542 val_loss=369852.723558
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=369852.723558)
+Epoch 3/300 train_loss=291012.573958 val_loss=281107.215144
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=281107.215144)
+Epoch 4/300 train_loss=228852.008333 val_loss=233395.163462
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=233395.163462)
+Epoch 5/300 train_loss=196947.045313 val_loss=209782.615986
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=209782.615986)
+Epoch 6/300 train_loss=182807.744792 val_loss=208104.662861
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=208104.662861)
+Epoch 7/300 train_loss=186182.049479 val_loss=180167.020433
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=180167.020433)
+Epoch 8/300 train_loss=173194.786198 val_loss=175853.323317
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=175853.323317)
+Epoch 9/300 train_loss=158569.620833 val_loss=160537.004808
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=160537.004808)
+Epoch 10/300 train_loss=137375.620573 val_loss=156508.600962
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=156508.600962)
+Epoch 11/300 train_loss=125159.903906 val_loss=145390.397837
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=145390.397837)
+Epoch 12/300 train_loss=122538.109635 val_loss=146165.367188
+Epoch 13/300 train_loss=128479.985417 val_loss=132328.283654
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=132328.283654)
+Epoch 14/300 train_loss=108532.541146 val_loss=122658.597656
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=122658.597656)
+Epoch 15/300 train_loss=115435.986979 val_loss=136422.022236
+Epoch 16/300 train_loss=111824.233073 val_loss=127643.244591
+Epoch 17/300 train_loss=101163.238802 val_loss=128176.884615
+Epoch 18/300 train_loss=98266.615104 val_loss=148573.516226
+Epoch 19/300 train_loss=113210.646484 val_loss=112090.103966
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=112090.103966)
+Epoch 20/300 train_loss=90499.273698 val_loss=107018.827224
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=107018.827224)
+Epoch 21/300 train_loss=89040.683464 val_loss=117380.929087
+Epoch 22/300 train_loss=98478.819661 val_loss=133970.454327
+Epoch 23/300 train_loss=96723.170833 val_loss=98308.585337
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=98308.585337)
+Epoch 24/300 train_loss=82819.006250 val_loss=92530.849760
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=92530.849760)
+Epoch 25/300 train_loss=83388.517969 val_loss=90979.028846
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=90979.028846)
+Epoch 26/300 train_loss=84622.166146 val_loss=86651.357873
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=86651.357873)
+Epoch 27/300 train_loss=75921.464453 val_loss=86001.913462
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=86001.913462)
+Epoch 28/300 train_loss=86047.109635 val_loss=103556.777043
+Epoch 29/300 train_loss=78770.541797 val_loss=85998.553185
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=85998.553185)
+Epoch 30/300 train_loss=72251.212565 val_loss=79809.074369
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=79809.074369)
+Epoch 31/300 train_loss=75514.057552 val_loss=79738.762921
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=79738.762921)
+Epoch 32/300 train_loss=71918.747656 val_loss=81840.936899
+Epoch 33/300 train_loss=73814.474740 val_loss=81043.126502
+Epoch 34/300 train_loss=71991.585156 val_loss=79086.199669
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=79086.199669)
+Epoch 35/300 train_loss=69795.405729 val_loss=76046.502103
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=76046.502103)
+Epoch 36/300 train_loss=69738.235026 val_loss=88913.505709
+Epoch 37/300 train_loss=66962.008333 val_loss=77196.337590
+Epoch 38/300 train_loss=68638.109245 val_loss=75188.063852
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=75188.063852)
+Epoch 39/300 train_loss=65937.810026 val_loss=78980.553185
+Epoch 40/300 train_loss=66448.374479 val_loss=76426.795072
+Epoch 41/300 train_loss=69722.625651 val_loss=80962.594651
+Epoch 42/300 train_loss=64794.860547 val_loss=80511.150841
+Epoch 43/300 train_loss=63880.621159 val_loss=89141.819111
+Epoch 44/300 train_loss=71797.266667 val_loss=72838.994742
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=72838.994742)
+Epoch 45/300 train_loss=63542.525456 val_loss=71580.475361
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=71580.475361)
+Epoch 46/300 train_loss=62291.416146 val_loss=72253.635066
+Epoch 47/300 train_loss=65031.075911 val_loss=69618.617788
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=69618.617788)
+Epoch 48/300 train_loss=62885.811979 val_loss=78139.716046
+Epoch 49/300 train_loss=61448.613542 val_loss=75711.475661
+Epoch 50/300 train_loss=62139.892839 val_loss=75556.460637
+Epoch 51/300 train_loss=67830.770964 val_loss=69550.689002
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=69550.689002)
+Epoch 52/300 train_loss=60368.861589 val_loss=67570.336088
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=67570.336088)
+Epoch 53/300 train_loss=64100.954297 val_loss=68592.861478
+Epoch 54/300 train_loss=59950.327083 val_loss=73319.474459
+Epoch 55/300 train_loss=61694.894922 val_loss=68159.692758
+Epoch 56/300 train_loss=63696.718490 val_loss=75604.266827
+Epoch 57/300 train_loss=62852.921224 val_loss=67016.203275
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=67016.203275)
+Epoch 58/300 train_loss=58471.037956 val_loss=67437.759014
+Epoch 59/300 train_loss=60346.566016 val_loss=67214.430889
+Epoch 60/300 train_loss=62035.756510 val_loss=71476.090294
+Epoch 61/300 train_loss=58748.396354 val_loss=65878.664964
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=65878.664964)
+Epoch 62/300 train_loss=59781.702474 val_loss=69474.371094
+Epoch 63/300 train_loss=60321.928385 val_loss=68321.982722
+Epoch 64/300 train_loss=62392.414193 val_loss=69839.645883
+Epoch 65/300 train_loss=61369.217318 val_loss=66838.624399
+Epoch 66/300 train_loss=56786.617318 val_loss=64907.527644
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=64907.527644)
+Epoch 67/300 train_loss=56279.562500 val_loss=71718.250300
+Epoch 68/300 train_loss=56701.446094 val_loss=64953.333984
+Epoch 69/300 train_loss=58204.599349 val_loss=68882.986478
+Epoch 70/300 train_loss=56987.233529 val_loss=65563.478215
+Epoch 71/300 train_loss=55945.173828 val_loss=64875.898888
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=64875.898888)
+Epoch 72/300 train_loss=57388.529622 val_loss=63849.570312
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=63849.570312)
+Epoch 73/300 train_loss=59465.506510 val_loss=67057.486779
+Epoch 74/300 train_loss=59409.373177 val_loss=75559.061899
+Epoch 75/300 train_loss=58240.291667 val_loss=65265.974159
+Epoch 76/300 train_loss=56477.624740 val_loss=67238.611178
+Epoch 77/300 train_loss=56197.550130 val_loss=64383.745793
+Epoch 78/300 train_loss=57756.257357 val_loss=64972.076623
+Epoch 79/300 train_loss=57168.615560 val_loss=76220.694411
+Epoch 80/300 train_loss=61243.280469 val_loss=67077.321514
+Epoch 81/300 train_loss=58188.085026 val_loss=65648.861328
+Epoch 82/300 train_loss=55131.151563 val_loss=63605.917819
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=63605.917819)
+Epoch 83/300 train_loss=55093.799284 val_loss=64563.120793
+Epoch 84/300 train_loss=60871.900326 val_loss=66810.698167
+Epoch 85/300 train_loss=57895.159310 val_loss=66228.398287
+Epoch 86/300 train_loss=54834.471029 val_loss=63783.923227
+Epoch 87/300 train_loss=55270.816602 val_loss=62587.741286
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=62587.741286)
+Epoch 88/300 train_loss=59314.112240 val_loss=70673.881310
+Epoch 89/300 train_loss=55442.737826 val_loss=68774.876502
+Epoch 90/300 train_loss=55506.468555 val_loss=62148.305589
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=62148.305589)
+Epoch 91/300 train_loss=55275.561654 val_loss=63292.984225
+Epoch 92/300 train_loss=56295.840365 val_loss=63657.106821
+Epoch 93/300 train_loss=57866.572396 val_loss=66474.169471
+Epoch 94/300 train_loss=56684.500000 val_loss=63462.308744
+Epoch 95/300 train_loss=57529.522005 val_loss=73654.018029
+Epoch 96/300 train_loss=56274.160156 val_loss=66406.657903
+Epoch 97/300 train_loss=55864.339648 val_loss=64208.069111
+Epoch 98/300 train_loss=55436.001888 val_loss=64575.448768
+Epoch 99/300 train_loss=54750.980469 val_loss=62219.962440
+Epoch 100/300 train_loss=56494.241406 val_loss=63382.937500
+Epoch 101/300 train_loss=56329.659896 val_loss=63391.409555
+Epoch 102/300 train_loss=54085.824870 val_loss=63963.191106
+Epoch 103/300 train_loss=55883.355143 val_loss=63748.054087
+Epoch 104/300 train_loss=56234.664974 val_loss=65967.038161
+Epoch 105/300 train_loss=54132.388021 val_loss=63375.316256
+Epoch 106/300 train_loss=54878.477930 val_loss=68763.910907
+Epoch 107/300 train_loss=55815.235677 val_loss=65028.712590
+Epoch 108/300 train_loss=55321.196940 val_loss=62695.997746
+Epoch 109/300 train_loss=53837.798828 val_loss=63240.923528
+Epoch 110/300 train_loss=54933.763086 val_loss=60367.164513
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=60367.164513)
+Epoch 111/300 train_loss=58464.702734 val_loss=60590.400391
+Epoch 112/300 train_loss=53891.715820 val_loss=60802.798227
+Epoch 113/300 train_loss=52483.269076 val_loss=60312.658353
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=60312.658353)
+Epoch 114/300 train_loss=53057.982161 val_loss=62058.143329
+Epoch 115/300 train_loss=56612.288281 val_loss=63630.768480
+Epoch 116/300 train_loss=54379.785547 val_loss=60328.867939
+Epoch 117/300 train_loss=54979.604102 val_loss=71810.200721
+Epoch 118/300 train_loss=56466.472526 val_loss=61591.314603
+Epoch 119/300 train_loss=54973.586979 val_loss=60541.081130
+Epoch 120/300 train_loss=53598.437305 val_loss=62278.910306
+Epoch 121/300 train_loss=52640.495052 val_loss=59854.758413
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=59854.758413)
+Epoch 122/300 train_loss=52092.421159 val_loss=60811.120343
+Epoch 123/300 train_loss=53653.654232 val_loss=62862.259766
+Epoch 124/300 train_loss=53945.360156 val_loss=61907.933143
+Epoch 125/300 train_loss=56225.053451 val_loss=61469.116286
+Epoch 126/300 train_loss=56338.585417 val_loss=63653.280950
+Epoch 127/300 train_loss=51772.131706 val_loss=61752.926082
+Epoch 128/300 train_loss=54274.377083 val_loss=61770.398738
+Epoch 129/300 train_loss=54154.215625 val_loss=64010.284105
+Epoch 130/300 train_loss=53884.347852 val_loss=59353.859675
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=59353.859675)
+Epoch 131/300 train_loss=52699.348893 val_loss=67498.586238
+Epoch 132/300 train_loss=53561.130599 val_loss=61241.593299
+Epoch 133/300 train_loss=54792.228581 val_loss=60789.710938
+Epoch 134/300 train_loss=53733.034049 val_loss=59415.913462
+Epoch 135/300 train_loss=51667.979036 val_loss=58883.062200
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=58883.062200)
+Epoch 136/300 train_loss=51280.224349 val_loss=59222.344651
+Epoch 137/300 train_loss=51537.052930 val_loss=59669.019081
+Epoch 138/300 train_loss=53884.407357 val_loss=59457.812951
+Epoch 139/300 train_loss=52823.805273 val_loss=58366.686298
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=58366.686298)
+Epoch 140/300 train_loss=53657.330794 val_loss=60702.818510
+Epoch 141/300 train_loss=52506.768359 val_loss=60533.475361
+Epoch 142/300 train_loss=49936.316927 val_loss=57392.463191
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=57392.463191)
+Epoch 143/300 train_loss=53470.239844 val_loss=58941.256911
+Epoch 144/300 train_loss=51645.158984 val_loss=62183.537109
+Epoch 145/300 train_loss=53558.356185 val_loss=58856.789213
+Epoch 146/300 train_loss=51910.276888 val_loss=58181.350962
+Epoch 147/300 train_loss=50776.969336 val_loss=58011.063101
+Epoch 148/300 train_loss=51530.480794 val_loss=66173.240986
+Epoch 149/300 train_loss=52187.144661 val_loss=57143.792969
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=57143.792969)
+Epoch 150/300 train_loss=51140.417188 val_loss=62569.647085
+Epoch 151/300 train_loss=53074.589063 val_loss=58785.215745
+Epoch 152/300 train_loss=52100.078581 val_loss=58393.659255
+Epoch 153/300 train_loss=50292.645443 val_loss=60584.571364
+Epoch 154/300 train_loss=49979.172591 val_loss=63439.053335
+Epoch 155/300 train_loss=54399.101693 val_loss=60442.413612
+Epoch 156/300 train_loss=50838.689128 val_loss=55664.260066
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=55664.260066)
+Epoch 157/300 train_loss=50797.737044 val_loss=57678.565956
+Epoch 158/300 train_loss=50407.193620 val_loss=56787.964994
+Epoch 159/300 train_loss=48940.347461 val_loss=54978.380409
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=54978.380409)
+Epoch 160/300 train_loss=48668.641406 val_loss=55394.248347
+Epoch 161/300 train_loss=48460.998828 val_loss=58658.424730
+Epoch 162/300 train_loss=50271.545182 val_loss=54737.673377
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=54737.673377)
+Epoch 163/300 train_loss=48854.368034 val_loss=55679.106821
+Epoch 164/300 train_loss=48735.531055 val_loss=56241.003456
+Epoch 165/300 train_loss=49406.091862 val_loss=54795.931641
+Epoch 166/300 train_loss=48162.199544 val_loss=54637.544772
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=54637.544772)
+Epoch 167/300 train_loss=47145.123698 val_loss=67198.449219
+Epoch 168/300 train_loss=58126.309180 val_loss=56290.085186
+Epoch 169/300 train_loss=48998.842057 val_loss=54091.438702
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=54091.438702)
+Epoch 170/300 train_loss=49889.163216 val_loss=62193.069261
+Epoch 171/300 train_loss=48735.689518 val_loss=55118.779898
+Epoch 172/300 train_loss=47224.194271 val_loss=55778.287109
+Epoch 173/300 train_loss=46821.989323 val_loss=52143.826472
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=52143.826472)
+Epoch 174/300 train_loss=46928.642643 val_loss=52925.833383
+Epoch 175/300 train_loss=46304.664128 val_loss=54439.081881
+Epoch 176/300 train_loss=49642.598568 val_loss=55175.398588
+Epoch 177/300 train_loss=47488.443750 val_loss=56515.871544
+Epoch 178/300 train_loss=46014.058919 val_loss=53196.419321
+Epoch 179/300 train_loss=47091.644010 val_loss=51916.513972
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=51916.513972)
+Epoch 180/300 train_loss=48221.227083 val_loss=55568.011569
+Epoch 181/300 train_loss=46195.423242 val_loss=52269.493990
+Epoch 182/300 train_loss=46961.729102 val_loss=52277.731671
+Epoch 183/300 train_loss=47412.213802 val_loss=53260.405649
+Epoch 184/300 train_loss=44922.505208 val_loss=52991.595102
+Epoch 185/300 train_loss=46207.606510 val_loss=56751.481671
+Epoch 186/300 train_loss=45998.673698 val_loss=52745.536058
+Epoch 187/300 train_loss=46337.558919 val_loss=51899.543570
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=51899.543570)
+Epoch 188/300 train_loss=45899.609635 val_loss=49786.217698
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=49786.217698)
+Epoch 189/300 train_loss=48869.588737 val_loss=53419.306791
+Epoch 190/300 train_loss=46001.716602 val_loss=50162.208684
+Epoch 191/300 train_loss=44093.331576 val_loss=52726.319561
+Epoch 192/300 train_loss=45579.042904 val_loss=50459.273438
+Epoch 193/300 train_loss=45303.067187 val_loss=51261.524038
+Epoch 194/300 train_loss=49863.065951 val_loss=54210.063401
+Epoch 195/300 train_loss=46077.740039 val_loss=49522.500451
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=49522.500451)
+Epoch 196/300 train_loss=44410.744206 val_loss=49449.764724
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=49449.764724)
+Epoch 197/300 train_loss=43176.474479 val_loss=50477.784405
+Epoch 198/300 train_loss=45796.306445 val_loss=48762.437650
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=48762.437650)
+Epoch 199/300 train_loss=45102.972331 val_loss=50839.230469
+Epoch 200/300 train_loss=46326.057161 val_loss=49882.811749
+Epoch 201/300 train_loss=44696.019076 val_loss=51601.009615
+Epoch 202/300 train_loss=44131.671029 val_loss=50613.248948
+Epoch 203/300 train_loss=44201.580143 val_loss=49179.226863
+Epoch 204/300 train_loss=45360.699935 val_loss=48414.633564
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=48414.633564)
+Epoch 205/300 train_loss=46498.573242 val_loss=49317.023888
+Epoch 206/300 train_loss=43204.805664 val_loss=48615.567007
+Epoch 207/300 train_loss=44376.937500 val_loss=48953.578876
+Epoch 208/300 train_loss=46581.034049 val_loss=48528.528546
+Epoch 209/300 train_loss=43477.733724 val_loss=49326.272536
+Epoch 210/300 train_loss=43289.675911 val_loss=49839.248197
+Epoch 211/300 train_loss=44812.402083 val_loss=51403.942458
+Epoch 212/300 train_loss=43257.005469 val_loss=47612.528696
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=47612.528696)
+Epoch 213/300 train_loss=42292.059440 val_loss=56334.105469
+Epoch 214/300 train_loss=44513.981510 val_loss=48805.662260
+Epoch 215/300 train_loss=43337.188346 val_loss=49206.931040
+Epoch 216/300 train_loss=43079.392122 val_loss=50959.843450
+Epoch 217/300 train_loss=43432.731185 val_loss=46904.999549
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=46904.999549)
+Epoch 218/300 train_loss=44099.268164 val_loss=51852.185096
+Epoch 219/300 train_loss=43030.888216 val_loss=46565.323017
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=46565.323017)
+Epoch 220/300 train_loss=41561.619596 val_loss=55892.495493
+Epoch 221/300 train_loss=44530.141732 val_loss=48644.919171
+Epoch 222/300 train_loss=41056.019857 val_loss=46942.151442
+Epoch 223/300 train_loss=42815.571745 val_loss=54830.570012
+Epoch 224/300 train_loss=43040.860612 val_loss=47612.451322
+Epoch 225/300 train_loss=41724.827669 val_loss=48966.093450
+Epoch 226/300 train_loss=44285.030208 val_loss=47465.215595
+Epoch 227/300 train_loss=41785.757617 val_loss=46186.653546
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=46186.653546)
+Epoch 228/300 train_loss=41929.946289 val_loss=48088.924279
+Epoch 229/300 train_loss=42754.208529 val_loss=49295.841196
+Epoch 230/300 train_loss=41914.914193 val_loss=48482.783053
+Epoch 231/300 train_loss=41385.560482 val_loss=50304.799730
+Epoch 232/300 train_loss=42272.518945 val_loss=48233.478516
+Epoch 233/300 train_loss=40943.518229 val_loss=47702.464093
+Epoch 234/300 train_loss=44652.724154 val_loss=48311.512921
+Epoch 235/300 train_loss=41996.129167 val_loss=52811.554387
+Epoch 236/300 train_loss=41926.228841 val_loss=48163.026893
+Epoch 237/300 train_loss=41691.506380 val_loss=46489.890775
+Epoch 238/300 train_loss=42489.434245 val_loss=47381.059495
+Epoch 239/300 train_loss=41380.507357 val_loss=47351.357272
+Epoch 240/300 train_loss=40758.586458 val_loss=47991.686599
+Epoch 241/300 train_loss=40665.663672 val_loss=47108.514724
+Epoch 242/300 train_loss=40461.981706 val_loss=46854.239633
+Epoch 243/300 train_loss=41553.062240 val_loss=47063.806190
+Epoch 244/300 train_loss=41960.073698 val_loss=45723.417368
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=45723.417368)
+Epoch 245/300 train_loss=40631.888216 val_loss=45553.480168
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=45553.480168)
+Epoch 246/300 train_loss=41129.736328 val_loss=46438.513071
+Epoch 247/300 train_loss=42564.883594 val_loss=49551.281851
+Epoch 248/300 train_loss=41762.315983 val_loss=49140.813702
+Epoch 249/300 train_loss=42849.495052 val_loss=45256.295222
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=45256.295222)
+Epoch 250/300 train_loss=40987.123633 val_loss=47698.106220
+Epoch 251/300 train_loss=41760.925618 val_loss=55287.815355
+Epoch 252/300 train_loss=43181.014128 val_loss=45871.852614
+Epoch 253/300 train_loss=40202.574805 val_loss=44957.941406
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=44957.941406)
+Epoch 254/300 train_loss=39537.522135 val_loss=45618.711689
+Epoch 255/300 train_loss=39854.453711 val_loss=43671.128456
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=43671.128456)
+Epoch 256/300 train_loss=40447.381315 val_loss=48770.675030
+Epoch 257/300 train_loss=40841.287109 val_loss=47962.561899
+Epoch 258/300 train_loss=40531.794010 val_loss=45502.921875
+Epoch 259/300 train_loss=39616.384570 val_loss=45163.205078
+Epoch 260/300 train_loss=40596.303906 val_loss=47954.679087
+Epoch 261/300 train_loss=42047.375911 val_loss=45223.283954
+Epoch 262/300 train_loss=39996.594596 val_loss=46308.438852
+Epoch 263/300 train_loss=41051.959310 val_loss=45474.012620
+Epoch 264/300 train_loss=42247.394466 val_loss=43800.884465
+Epoch 265/300 train_loss=40490.966797 val_loss=44670.689153
+Epoch 266/300 train_loss=39212.001628 val_loss=43543.407752
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=43543.407752)
+Epoch 267/300 train_loss=39862.525846 val_loss=45967.935998
+Epoch 268/300 train_loss=39447.802799 val_loss=43161.526893
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=43161.526893)
+Epoch 269/300 train_loss=39624.086458 val_loss=43162.710637
+Epoch 270/300 train_loss=41750.440951 val_loss=45418.168119
+Epoch 271/300 train_loss=40617.165755 val_loss=46934.493990
+Epoch 272/300 train_loss=45243.938151 val_loss=44255.802885
+Epoch 273/300 train_loss=39021.618034 val_loss=43974.706581
+Epoch 274/300 train_loss=39021.804232 val_loss=45020.801983
+Epoch 275/300 train_loss=39342.720117 val_loss=43240.445012
+Epoch 276/300 train_loss=39330.185579 val_loss=43152.911508
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=43152.911508)
+Epoch 277/300 train_loss=40368.472396 val_loss=43381.019832
+Epoch 278/300 train_loss=38543.466146 val_loss=44093.534255
+Epoch 279/300 train_loss=39494.319141 val_loss=47217.830379
+Epoch 280/300 train_loss=39220.344336 val_loss=43935.533504
+Epoch 281/300 train_loss=40089.546549 val_loss=49806.913161
+Epoch 282/300 train_loss=39710.302214 val_loss=42847.653395
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=42847.653395)
+Epoch 283/300 train_loss=39040.772656 val_loss=53245.192458
+Epoch 284/300 train_loss=41245.750456 val_loss=46985.846755
+Epoch 285/300 train_loss=39275.866081 val_loss=43288.922776
+Epoch 286/300 train_loss=39331.577865 val_loss=46945.131611
+Epoch 287/300 train_loss=39230.291471 val_loss=44977.355919
+Epoch 288/300 train_loss=38772.043294 val_loss=43098.720403
+Epoch 289/300 train_loss=40242.088086 val_loss=43814.332181
+Epoch 290/300 train_loss=39321.939779 val_loss=46062.343600
+Epoch 291/300 train_loss=41535.000130 val_loss=45835.789213
+Epoch 292/300 train_loss=38526.020508 val_loss=43252.118239
+Epoch 293/300 train_loss=38662.831445 val_loss=42163.199219
+  Saved best checkpoint to /N/slate/kmluong/PROJECT2/checkpoints/best_model.pt (val_loss=42163.199219)
+Epoch 294/300 train_loss=40068.518685 val_loss=53985.278095
+Epoch 295/300 train_loss=39656.837728 val_loss=43063.605769
+Epoch 296/300 train_loss=38622.502409 val_loss=44925.758263
+Epoch 297/300 train_loss=38857.863477 val_loss=42621.638972
+Epoch 298/300 train_loss=38423.114388 val_loss=42446.014423
+Epoch 299/300 train_loss=41272.944922 val_loss=48900.298678
+Epoch 300/300 train_loss=39192.976172 val_loss=43390.878305
